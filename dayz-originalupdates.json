@@ -21,7 +21,7 @@
         "UpdateStageName": "Modscript Download",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/Crito-VanaheimServers/main/dayz-originalmanagemods.sh",
+        "UpdateSourceData": "https://raw.githubusercontent.com/Crito-VanaheimServers/AMPTemplates/main/dayz-originalmanagemods.sh",
         "UpdateSourceArgs": "managemods.sh",
         "UpdateSourceTarget": "{{$FullInstanceDir}}",
         "OverwriteExistingFiles": true,
