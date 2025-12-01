@@ -81,9 +81,9 @@ function Get-ModNameFromSteam {
 
     try {
         $resp = Invoke-WebRequest -UseBasicParsing -Uri $steamPage -ErrorAction Stop
-    } catch {
-        Write-Host "  Failed to fetch Steam page for $ModId: $($_.Exception.Message)"
-        return $null
+    }catch {
+    	Write-Host ("  Failed to fetch Steam page for {0}: {1}" -f $ModId, $_.Exception.Message)
+    	return $null
     }
 
     $match = $resp.Content |
