@@ -39,7 +39,7 @@
         "UpdateStageName": "Modscript Download",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/gatzmanagemods.ps1",
+        "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/managemods.ps1",
         "UpdateSourceArgs": "gatzmanagemods.ps1",
         "UpdateSourceTarget": "{{$FullInstanceDir}}",
         "OverwriteExistingFiles": true,
